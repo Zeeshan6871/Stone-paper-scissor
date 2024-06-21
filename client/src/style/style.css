@@ -1,0 +1,73 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(213, 244, 248);
+    background: rgb(43, 38, 38);
+}
+
+#header {
+    font-size: 2.5rem;
+    background-color: rgb(31, 27, 27);
+}
+
+#title {
+    font-size: 7rem;
+}
+
+#scoreboard {
+    font-size: 5rem;
+}
+
+#options {
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+.option {
+    border: solid 1px rgb(236, 179, 179);
+    border-radius: 50%;
+    min-width: 150px;
+    min-height: 150px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.option:disabled {
+    border: none;
+    color: rgba(255, 255, 255, 0.733);
+    cursor: default;
+}
+
+#resultBox {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#result {
+    background-color: black;
+}
+
+#reset {
+    font-size: 2rem;
+}
+
+#link {
+    width: 60%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#yourScoreSpan {
+    margin-left: 10px;
+}
+
+#theirScoreSpan {
+    margin-right: 10px
+}
